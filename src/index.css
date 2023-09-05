@@ -1,0 +1,42 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+nav {
+  display: flex;
+  height: 50px;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+.navbarlogo {
+  max-width: 100xh;
+}
+section {
+  padding: 20px;
+}
+.pics {
+  max-width: 900px;
+  align-self: center;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+.herotext {
+  font-size: larger;
+}
+.picsgrid {
+  display: grid;
+
+  align-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 20px;
+  padding: 0.5rem 1rem 1rem 1rem;
+  cursor: pointer;
+}
+.grid {
+  
+  border-radius: 5px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.6);
+}
